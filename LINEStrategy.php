@@ -62,7 +62,7 @@ class LINEStrategy extends OpauthStrategy
             'switch_amr' => false,
         );
 
-        $this->serverPost($url, $params);
+        $this->clientGet($url, $params);
     }
 
     /**
